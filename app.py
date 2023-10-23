@@ -58,7 +58,7 @@ with st.spinner('Model is being loaded..'):
     
 
 st.write("""
-         # Mango Disease Detection with Remedy Suggestion
+         # Seed and Sapling Variety Detection
          """
          )
 
