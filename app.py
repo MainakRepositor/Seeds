@@ -81,7 +81,7 @@ else:
     x = random.randint(98,99)+ random.randint(0,99)*0.01
     st.sidebar.error("Accuracy : " + str(x) + " %")
 
-    class_names = ['Black-grass', 'Charlock','Cleavers','Common Chickweed','Common wheat','Fat Hen','Loose Silky-bent','Maize','Scentless Mayweed','Small-flowered Cranesbill','Sugar beet']
+    class_names = ['Loose Silky-bent', 'Charlock','Cleavers','Common Chickweed','Common wheat','Fat Hen','Black-grass','Maize','Scentless Mayweed','Small-flowered Cranesbill','Sugar beet']
 
     string = "Detected Plant : " + class_names[np.argmax(predictions)]
     st.sidebar.success(string)
